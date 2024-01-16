@@ -1,0 +1,107 @@
+/*---------------GENERAL---------------*/
+/*---------------GENERAL---------------*/
+/*---------------GENERAL---------------*/
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+a, button{
+    cursor: pointer;
+}
+
+/*---------------HEADER---------------*/
+/*----------------AND----------------*/
+/*---------------FOOTER---------------*/
+header{
+    position: sticky;
+    top: 0;
+}
+.nav-header{
+    position: sticky;
+    top: 0;
+    height: 5rem;
+    display: flex;
+}
+
+.secciones-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+}
+
+#logo {
+    margin-right: 1rem; /* Ajusta el margen derecho según sea necesario */
+}
+
+.secciones-header li a {
+    text-decoration: none;
+    color: rgb(28, 100, 242);
+    font-size: 4rem;
+    font-weight: bold;
+    display: block;
+    padding: 0 2rem;
+    text-align: center;
+}
+.secciones-header li {
+    display: flex;
+    align-items: center;
+}
+
+main{
+    background: rgb(74, 119, 242);
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.apartados{
+    background: rgb(74, 119, 242);
+    color: white;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+.apartados:hover{
+    background: rgb(110, 138, 242);
+}
+    .apartados summary{
+        list-style: none;
+    }
+    .apartados summary::before{
+        padding-right: 1rem;
+        content: '+';
+    }
+    .apartados[open] summary::before{
+        content: '-';
+    }
+    .miemb{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+    .miemb .miembros{
+        margin: 0 2rem;
+        width: 20%;
+    }
+    .miemb .miembros img{
+        margin-top: .5rem;  
+        width: 100%;
+    }
+    .miemb .miembros p{
+        margin: 0;
+    }

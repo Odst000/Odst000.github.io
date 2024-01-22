@@ -1,70 +1,231 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>MUSICSHOP</title>
+        <link rel="icon" href="Recursos/Imagenes/logo.jpg" type="image/x-icon">
+		<link rel="stylesheet" href="CSS/general.css">
+		<link rel="stylesheet" href="CSS/estilos-index.css">
+	</head>
+	
+	<body>
+		<header>
+			<nav class="nav-header">
+				<ul class="secciones-header">
+                    <li id="active"><a href="index.html">MUSICSHOP</a></li>
+					<li><a href="HTML/categorias.html">TODO</a></li>
+					<li><a href="HTML/contactanos.html">CONTACTANOS</a></li>
+					<li><a href="HTML/conocenos.html">CONOCENOS</a></li>
+					<li><a href="HTML/carrito.html">CARRITO</a></li>
+				</ul>
+			</nav>
+		</header>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuevas Tecnologias</title>
-    <link rel="stylesheet" href="general.css">
-</head>
+		<main>			
+			<section class="slider">
+				<a href="HTML/categorias.html">
+					<ul>
+						<li><img src="Recursos/Imagenes/banner1.jpg" alt="Foto_Inicio"></li>
+						<li><img src="Recursos/Imagenes/banner2.jpg" alt="Foto_Inicio"></li>
+						<li><img src="Recursos/Imagenes/banner3.jpg" alt="Foto_Inicio"></li>
+					</ul>
+				</a>				
+			</section>
 
-<body>
-    <header>
-        <nav class="nav-header">
-            <ul class="secciones-header">
-                <li><img src="logo.jpg" id="logo"></li>                
-                <li><a href="index.html">UPIICSASK</a></li>
-            </ul>
-        </nav>
-    </header>
+			<section class="texto">
+			<h3 class="bienvenida">BIENVENIDO</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti quis enim consequuntur, dolorum praesentium eum adipisci at natus tempore, recusandae quos magni iste commodi! Fuga tempore quam officia quae adipisci.
+					Ipsam earum veniam sunt cupiditate architecto unde quidem? Sit quibusdam optio alias sapiente omnis modi eius eligendi iure eos voluptate ut in odit, nesciunt officiis placeat quam facilis neque nostrum?
+					Asperiores, magnam libero. Tempora et optio in dolorem eum nihil perferendis, accusamus accusantium, corporis ad recusandae doloribus, laudantium quo ratione odio error facere debitis rerum consequuntur natus vero ipsam. Delectus.
+					Veritatis, dicta eveniet ipsum praesentium enim ipsa fugit dolores quibusdam vitae, qui pariatur omnis sit reprehenderit doloremque eos quia iure earum sunt velit cupiditate! Laborum vero itaque harum voluptate et.
+				</p>
+			</section>
 
-    <main>
-        <h1>Nuevas Tecnologias</h1>
-        <p class="apartados">
-            En el contexto de la materia "Nuevas Tecnologías", impartida por el profesor Enrique Pérez Jiménez, este proyecto se
-            propone implementar un chatbot avanzado que utilice el modelo ChatGPT 3.5. La aplicación de esta tecnología se
-            integrará en una página web desarrollada por nosotros, enfocándonos en los temas pertinentes vistos a lo largo del
-            semestre. Este chatbot ofrecerá a los usuarios una experiencia conversacional mejorada, destacando la aplicación
-            práctica de las nuevas tecnologías en la interacción humano-máquina.
-        </p>
-        <section class="desplegables">
-            <details open class="apartados">
-                <summary>Inteligencia Artificial</summary>
-                <p>
-                    El desarrollo histórico de la Inteligencia Artificial ha llevado a avances significativos en la comprensión
-                    del lenguaje natural y en la capacidad de respuesta de las máquinas. Desde los primeros intentos en las
-                    décadas de 1950 y 1960 hasta el resurgimiento actual con enfoques como el aprendizaje profundo, la IA ha
-                    demostrado su potencial para transformar diversas áreas. Dentro de la materia "Nuevas Tecnologías", veremos
-                    la evolución de la Inteligencia Artificial y su impacto en la mejora continua de las interfaces de usuario.
-                    Desde los conceptos fundamentales hasta los desarrollos más recientes, y este proyecto se alinea con los
-                    temas discutidos en clase y busca aplicarlos de manera práctica.
-                </p>
-            </details>
-            <details open class="apartados">
-                <summary>¿Como funciona ChatGPT?</summary>
-                <p>ChatGPT funciona utilizando la arquitectura de transformers. Se preentrena con grandes cantidades de texto,
-                    aprende patrones y contextos. Genera respuestas basadas en la entrada y el contexto previo. Puede ajustarse
-                    finamente para tareas específicas. Mejora mediante iteraciones y ajustes. Es interactivo y maneja diversidad de
-                    preguntas. Limitaciones en respuestas incorrectas. Contexto sensible y capacidad de generalización.
-                </p>
-            </details>
-            <details open class="apartados">
-                <summary>Miembros</summary>
-                <div class="miemb">
-                    <div class="miembros">
-                        <img src="Juan.jpg" alt="">
-                        <p>Hernández Villalobos Juan</p>
-                    </div>
-                    <div class="miembros">
-                        <img src="Oscar.jpeg" alt="">
-                        <p>Santamaría Trujano Oscar</p>
-                    </div>
-            </details>
-        </section>
-    </main>
-</body>
-<script src="https://unpkg.com/react-stackai@latest/dist/vanilla/vanilla-stackai.js"
-    data-project-url="https://www.stack-ai.com/embed/c74281be-51bc-4380-a5be-e2fd9c48674b/1ef83c02-60aa-445a-a4a2-afe4097efbc7/65a5cedf955d1d63604c2b0e">
-    </script>
+			<h3 class="titulares"><a href="">PRODUCTOS DESTACADOS</a></h3>
+			<section class="productos">
+				<article class="producto">
+					<a href="HTML/producto.html"><img src="Recursos/Imagenes/Bateria.jpg"></a>
+					<div>						
+						<a href="HTML/producto.html">NOMBRE DEL PRODUCTO</a>
+						<p>Bateria de la marca electronica --</p>
+						<p>Precio</p>
+						<button type="button">Comprar</button>
+					</div>					
+				</article>
+				<article class="producto">
+					<a href="HTML/producto.html"><img src="Recursos/Imagenes/Bateria.jpg"></a>
+					<div>						
+						<a href="HTML/producto.html">NOMBRE DEL PRODUCTO</a>
+						<p>Bateria de la marca electronica --</p>
+						<p>Precio</p>
+						<button type="button">Comprar</button>
+					</div>					
+				</article>
+				<article class="producto">
+					<a href="HTML/producto.html"><img src="Recursos/Imagenes/Bateria.jpg"></a>
+					<div>						
+						<a href="HTML/producto.html">NOMBRE DEL PRODUCTO</a>
+						<p>Bateria de la marca electronica --</p>
+						<p>Precio</p>
+						<button type="button">Comprar</button>
+					</div>					
+				</article>
+				<article class="producto">
+					<a href="HTML/producto.html"><img src="Recursos/Imagenes/Bateria.jpg"></a>
+					<div>						
+						<a href="HTML/producto.html">NOMBRE DEL PRODUCTO</a>
+						<p>Bateria de la marca electronica --</p>
+						<p>Precio</p>
+						<button type="button">Comprar</button>
+					</div>					
+				</article>
+				<article class="producto">
+					<a href="HTML/producto.html"><img src="Recursos/Imagenes/Bateria.jpg"></a>
+					<div>						
+						<a href="HTML/producto.html">NOMBRE DEL PRODUCTO</a>
+						<p>Bateria de la marca electronica --</p>
+						<p>Precio</p>
+						<button type="button">Comprar</button>
+					</div>					
+				</article>
+				<article class="producto">
+					<a href="HTML/producto.html"><img src="Recursos/Imagenes/Bateria.jpg"></a>
+					<div>						
+						<a href="HTML/producto.html">NOMBRE DEL PRODUCTO</a>
+						<p>Bateria de la marca electronica --</p>
+						<p>Precio</p>
+						<button type="button">Comprar</button>
+					</div>					
+				</article>
+				<article class="producto">
+					<a href="HTML/producto.html"><img src="Recursos/Imagenes/Bateria.jpg"></a>
+					<div>						
+						<a href="HTML/producto.html">NOMBRE DEL PRODUCTO</a>
+						<p>Bateria de la marca electronica --</p>
+						<p>Precio</p>
+						<button type="button">Comprar</button>
+					</div>					
+				</article>
+				<article class="producto">
+					<a href="HTML/producto.html"><img src="Recursos/Imagenes/Bateria.jpg"></a>
+					<div>						
+						<a href="HTML/producto.html">NOMBRE DEL PRODUCTO</a>
+						<p>Bateria de la marca electronica --</p>
+						<p>Precio</p>
+						<button type="button">Comprar</button>
+					</div>					
+				</article>
+			</section>
+            
+            
+            <h3 class="titulares"><a href="">OFERTAS</a></h3>
+            
+			<section class="productos">
+				<article class="producto">
+					<a href="HTML/producto.html"><img src="Recursos/Imagenes/Bateria.jpg"></a>
+					<div>						
+						<a href="HTML/producto.html">NOMBRE DEL PRODUCTO</a>
+						<p>Bateria de la marca electronica --</p>
+						<p>Precio</p>
+						<button type="button">Comprar</button>
+					</div>					
+				</article>
+				<article class="producto">
+					<a href="HTML/producto.html"><img src="Recursos/Imagenes/Bateria.jpg"></a>
+					<div>						
+						<a href="HTML/producto.html">NOMBRE DEL PRODUCTO</a>
+						<p>Bateria de la marca electronica --</p>
+						<p>Precio</p>
+						<button type="button">Comprar</button>
+					</div>					
+				</article>
+				<article class="producto">
+					<a href="HTML/producto.html"><img src="Recursos/Imagenes/Bateria.jpg"></a>
+					<div>						
+						<a href="HTML/producto.html">NOMBRE DEL PRODUCTO</a>
+						<p>Bateria de la marca electronica --</p>
+						<p>Precio</p>
+						<button type="button">Comprar</button>
+					</div>					
+				</article>
+				<article class="producto">
+					<a href="HTML/producto.html"><img src="Recursos/Imagenes/Bateria.jpg"></a>
+					<div>						
+						<a href="HTML/producto.html">NOMBRE DEL PRODUCTO</a>
+						<p>Bateria de la marca electronica --</p>
+						<p>Precio</p>
+						<button type="button">Comprar</button>
+					</div>					
+				</article>
+				<article class="producto">
+					<a href="HTML/producto.html"><img src="Recursos/Imagenes/Bateria.jpg"></a>
+					<div>						
+						<a href="HTML/producto.html">NOMBRE DEL PRODUCTO</a>
+						<p>Bateria de la marca electronica --</p>
+						<p>Precio</p>
+						<button type="button">Comprar</button>
+					</div>					
+				</article>
+				<article class="producto">
+					<a href="HTML/producto.html"><img src="Recursos/Imagenes/Bateria.jpg"></a>
+					<div>						
+						<a href="HTML/producto.html">NOMBRE DEL PRODUCTO</a>
+						<p>Bateria de la marca electronica --</p>
+						<p>Precio</p>
+						<button type="button">Comprar</button>
+					</div>					
+				</article>
+				<article class="producto">
+					<a href="HTML/producto.html"><img src="Recursos/Imagenes/Bateria.jpg"></a>
+					<div>						
+						<a href="HTML/producto.html">NOMBRE DEL PRODUCTO</a>
+						<p>Bateria de la marca electronica --</p>
+						<p>Precio</p>
+						<button type="button">Comprar</button>
+					</div>					
+				</article>
+				<article class="producto">
+					<a href="HTML/producto.html"><img src="Recursos/Imagenes/Bateria.jpg"></a>
+					<div>						
+						<a href="HTML/producto.html">NOMBRE DEL PRODUCTO</a>
+						<p>Bateria de la marca electronica --</p>
+						<p>Precio</p>
+						<button type="button">Comprar</button>
+					</div>					
+				</article>
+			</section>
 
+
+		</main>
+
+        <footer>
+            <nav class="nav-footer">
+				<ul class="secciones-footer">
+                    <li><a href="index.html" id="logo"><img src="Recursos/Imagenes/logo.jpg" id="logo" alt="img_logo"></a></li>
+                    <li><p class="li-princ">"slogan" Lorem ipsum dolor sit amet consectetur"</p> /li>
+                </ul>>
+                <ul class="secciones-footer">
+                    <li><a href="conocenos.html" class="li-princ">SOBRE NOSOTROS</a></li>
+                    <li><a href="conocenos.html">¿Quienes somos?</a></li>
+                    <li><a href="conocenos.html">Nuestra historia</a></li>
+                </ul>
+				<ul class="secciones-footer">
+                    <li><a href="" class="li-princ">CONTACTO</a></li>
+                    <li><a href="">Sucursales</a></li>
+                    <li><a href="">Correo</a></li>
+                    <li><a href="">Telefono</a></li>
+                </ul>
+				<ul class="secciones-footer">
+					<li><a href="contactanos.html" class="li-princ">REDES</a></li>
+					<li><a href="https://www.facebook.com/">Facebook</a></li>
+					<li><a href="https://www.instagram.com/">Instagram</a></li>
+					<li><a href="https://twitter.com/">Twitter</a></li>
+				</ul>
+            </nav>
+        </footer>
+	</body>
 </html>
+

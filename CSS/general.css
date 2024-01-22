@@ -1,0 +1,105 @@
+/*---------------GENERAL---------------*/
+/*---------------GENERAL---------------*/
+/*---------------GENERAL---------------*/
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+main{
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+a, button{
+    cursor: pointer;
+}
+
+/*---------------HEADER---------------*/
+/*----------------AND----------------*/
+/*---------------FOOTER---------------*/
+header{
+    background: rgba(50, 50, 50, .9);
+    position: sticky;
+    top: 0;
+}
+.nav-header{
+    position: sticky;
+    top: 0;
+    height: 3rem;
+    display: flex;
+}
+.secciones-header{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+}
+.secciones-header li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 0 2rem;
+}
+.secciones-header li#active{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background: rgb(247, 52, 52);
+}
+.secciones-header li a:hover{    
+    color: rgb(247, 52, 52);
+}
+.secciones-header li#active a:hover{    
+    color: white;
+}
+footer{    
+    background: rgb(50, 50, 50);
+}
+.nav-footer{
+    height: auto;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.secciones-footer{
+    width: 100%;
+    list-style: none;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.secciones-footer li a{    
+    text-decoration: none;
+    text-align: center;
+    color: lightgray;
+    display: block;
+    padding: .5rem 2rem;
+}
+.secciones-footer li .li-princ{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.secciones-footer li a:hover{    
+    color: gray;
+}
+.codigos{
+    color: rgb(247, 52, 52);    
+    color: rgb(238, 87, 40);
+    color: rgb(253, 159, 25);
+}
+#logo{
+    height: 4rem;
+    cursor: default;
+}

@@ -1,0 +1,58 @@
+.filtro{    
+    margin-bottom: 2rem;
+}
+.filtro ul{
+    margin: auto;
+    width: 30%;
+    display: flex;
+    list-style: none;
+}
+.filtro ul li{
+    margin: auto; 
+}
+
+.articulos{
+    height: auto;
+    margin: 5rem;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    grid-template-rows: 20rem 20rem 20rem;
+    justify-content: space-between;
+    row-gap: 5rem;
+}
+.articulos .producto{
+    height: 20rem;
+    box-shadow: 0 5px rgba(90, 90, 90, 0.3);
+    border-radius: 5px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+.articulos .producto .imag{
+    height: 16rem;
+}
+.articulos .producto .datos{
+    height: 4rem;
+}
+.articulos .producto a{
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+}
+.articulos .producto a img{    
+    object-fit: cover;
+    width: 100%;
+}
+
+.indice{
+    margin-top: 10rem;
+}
+.indice ul{
+    margin: auto;
+    width: 20%;
+    display: flex;
+    list-style: none;
+}
+.indice ul li{
+    margin: auto; 
+}

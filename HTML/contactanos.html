@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTANOS</title>
+    <link rel="icon" href="../Recursos/Imagenes/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/general.css">
+    <link rel="stylesheet" href="../CSS/estilos-contactanos.css">
+    <script src="../JS/menu_contacto.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav-header">
+            <ul class="secciones-header">
+                <li id="active"><a href="../index.html">MUSICSHOP</a></li>
+                <li><a href="categorias.html">TODO</a></li>
+                <li><a href="contactanos.html">CONTACTANOS</a></li>
+                <li><a href="conocenos.html">CONOCENOS</a></li>
+                <li><a href="carrito.html">CARRITO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="desplegables">
+            <div class="sucursales">
+                <ul>
+                    <li>Sucursales</li>
+                    <li><button id="butt1" onclick="boton1();" class="active">Sucursal 1</button></li>
+                    <li><button id="butt2" onclick="boton2(); ">Sucursal 2</button></li>
+                    <li><button id="butt3" onclick="boton3();">Sucursal 3</button></li>
+                </ul>
+            </div>
+            
+            <div class="secciones">                
+                <article class="tarjeta" id="tarj1">
+                    <div class="texto">
+                        <p class="datos">Sucursal 1</p>
+                        <p class="datos"><a href="https://api.whatsapp.com/send/?phone=5215636485082">+52 1 56 36 48 50 82</a></p>
+                        <p class="datos"><a href="mailto:oscardst000@gmail.com">oscardst000@gmail.com</a></p>
+                        <p class="datos">Av. Té 950, Granjas México, Iztacalco, 08400 Ciudad de México, CDMX</p>
+                    </div>
+                    <div class="maps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.390546540429!2d-99.09428553509385!3d19.395524586905385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fc2e3efc321b%3A0xabf8454acb3a3a99!2sUPIICSA%20%E2%80%93%20Unidad%20Profesional%20Interdisciplinaria%20de%20Ingenier%C3%ADa%20y%20Ciencias%20Sociales%20y%20Administrativas%20IPN!5e0!3m2!1ses-419!2smx!4v1686850493626!5m2!1ses-419!2smx" width="100%" height="480" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </article>           
+                <article class="tarjeta" id="tarj2">
+                    <div class="texto">
+                        <p class="datos">Sucursal 2</p>
+                        <p class="datos"><a href="https://api.whatsapp.com/send/?phone=5215636485082">+52 1 56 36 48 50 82</a></p>
+                        <p class="datos"><a href="mailto:oscardst000@gmail.com">oscardst000@gmail.com</a></p>
+                        <p class="datos">Av. IPN s/n, Col. San Pedro Zacatenco, 07738 Gustavo A. Madero, CDMX</p>
+                    </div>
+                    <div class="maps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.0581304201255!2d-99.13855130910396!3d19.49613469172365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f9ba643a480d%3A0xe62cb058a376e924!2sDirecci%C3%B3n%20Bibliotecas%20y%20Publicaciones%20-%20IPN!5e0!3m2!1ses-419!2smx!4v1686869490401!5m2!1ses-419!2smx" width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </article>           
+                <article class="tarjeta" id="tarj3">
+                    <div class="texto">
+                        <p class="datos">Sucursal 3</p>
+                        <p class="datos"><a href="https://api.whatsapp.com/send/?phone=5215636485082">+52 1 56 36 48 50 82</a></p>
+                        <p class="datos"><a href="mailto:oscardst000@gmail.com">oscardst000@gmail.com</a></p>
+                        <p class="datos">Manuel Carpio 475, Casco de Santo Tomás, Plutarco Elías Calles, Miguel Hidalgo, CDMX</p>
+                    </div>
+                    <div class="maps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.0594647373714!2d-99.17227392330288!3d19.453002840026127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8bfbaeebabd%3A0x911c865be322e550!2sCanal%20Once!5e0!3m2!1ses-419!2smx!4v1686869470402!5m2!1ses-419!2smx" width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </article>
+            </div>  
+        </section>
+    </main>
+
+    <footer>
+        <nav class="nav-footer">
+            <ul class="secciones-footer">
+                <li><a href="../index.html" id="logo"><img src="../Recursos/Imagenes/logo.jpg" id="logo" alt="img_logo"></a></li>
+                <li><p class="li-princ">"slogan" Lorem ipsum dolor sit amet consectetur"</p> /li>
+            </ul>
+            <ul class="secciones-footer">
+                <li><a href="conocenos.html" class="li-princ">SOBRE NOSOTROS</a></li>
+                <li><a href="conocenos.html">¿Quienes somos?</a></li>
+                <li><a href="conocenos.html">Nuestra historia</a></li>
+            </ul>
+            <ul class="secciones-footer">
+                <li><a href="contactanos.html" class="li-princ">CONTACTO</a></li>
+                <li><a href="contactanos.html">Sucursales</a></li>
+                <li><a href="">Correo</a></li>
+                <li><a href="">Telefono</a></li>
+            </ul>
+            <ul class="secciones-footer">
+                <li><a href="contactanos.html" class="li-princ">REDES</a></li>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                <li><a href="https://www.instagram.com/">Instagram</a></li>
+                <li><a href="https://twitter.com/">Twitter</a></li>
+            </ul>
+        </nav>
+    </footer>    
+</body>
+</html>

@@ -1,0 +1,47 @@
+.apartados{
+    background: lightslategray;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+.apartados:hover{
+    background: rgb(130, 146, 162);
+}
+    .apartados summary{
+        list-style: none;
+    }
+    .apartados summary::before{
+        padding-right: 1rem;
+        content: '+';
+    }
+    .apartados[open] summary::before{
+        content: '-';
+    }
+    .apartados p{
+        background: lightsteelblue;
+        padding: 1rem;
+        border-radius: 6px;
+        cursor: default;
+        margin-bottom: 0;
+    }
+    .miemb{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+    .miemb .miembros{
+        margin: 0 2rem;
+        width: 20%;
+    }
+    .miemb .miembros img{
+        cursor: default;
+        margin-top: .5rem;  
+        width: 100%;
+    }
+    .miemb .miembros p{
+        margin: 0;
+    }
